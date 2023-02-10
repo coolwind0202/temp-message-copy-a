@@ -1,0 +1,13 @@
+{
+  "name": "proj_ws",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2"
+  }
+}

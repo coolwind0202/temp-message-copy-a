@@ -1,0 +1,30 @@
+<body>
+  <h1>
+    メッセージを送信されたタイミングでコピーする
+  </h1>
+  <section>
+    <h2>
+      必要情報の入力
+    </h2>
+    <p>
+      <label for="channel-id">チャンネルID</label>
+      <input type="text" id="channel-id" />
+    </p>
+    <p>
+      <label for="host">ホスト</label>
+      <input type="text" id="host" value="localhost" />
+    </p>
+  </section>
+  <section>
+    <h2>
+      メッセージの受信
+    </h2>
+    <p>
+      <button type="button" onClick="connect()">接続開始</button>
+    </p>
+    <p>
+      <textarea id="output" readonly></textarea>
+    </p>
+  </section>
+  <script src="index.js"></script>
+</body>
